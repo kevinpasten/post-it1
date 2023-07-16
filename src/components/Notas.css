@@ -1,0 +1,22 @@
+.card {
+    width: 200px;
+    height: 280px;
+    background-color: lightgoldenrodyellow;
+    transform: rotate(2deg);
+}
+
+.btn-borrar {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.importante {
+    background-color: orangered;
+    color: aliceblue;
+}
+
+.importante .btn-borrar {
+    color: aliceblue;
+}
+  

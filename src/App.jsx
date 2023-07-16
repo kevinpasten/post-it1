@@ -1,13 +1,14 @@
-import './App.css'
-import { Encabezado } from './components/Encabezado'
-import { InputDatos } from './components/inputDatos'
-
+import { useState } from 'react'
+import { Encabezado } from './components/Encabezado';
+import { Notas } from './components/Notas';
 
 export const App = () => {
+  const [notas] = useState([]);
+
   return (
     <div>
       <Encabezado />
-      <InputDatos />
+      <Notas notas={notas}/>
     </div>
   )
 }
