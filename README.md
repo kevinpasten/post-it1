@@ -2,7 +2,7 @@
 <p>Mientras aprendia el uso de react, opte por usar vite para crear mis proyectos ya que facilito mi aprendizaje.<br>
 Para arrancar el proyecto se debe utilizar los comandos:<br>
 <ul>
-    <li>git clone <label>https://github.com/kevinpasten/post-it1.git</label></li>
+    <li>git clone <label style="text-decoration: none;">https://github.com/kevinpasten/post-it1.git</label></li>
     <li>npm i</li>
     <li>npm run dev</li>
 </ul>
