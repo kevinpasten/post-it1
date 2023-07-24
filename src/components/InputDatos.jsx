@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 export const InputDatos = ({ agregarNota }) => {
-  const [error, setError] = React.useState("");
+  const [error, setError] = useState("");
   const importanteRef = useRef(false);
   const tituloRef = useRef("");
   const descripcionRef = useRef("");
